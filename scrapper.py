@@ -64,3 +64,6 @@ def scrap_houses():
 
     except ValueError as ve:
         print(ve)
+        
+# If you only want make scraping uncomment the next line
+#scrap_houses()
