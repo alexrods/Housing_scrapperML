@@ -22,7 +22,9 @@ In this project i make a [web scraping](https://github.com/alexrods/Housing_scra
 		source venv/bin/activate
 		
 * Install requirements.txt
+		
 		pip install -r requirements.txt
+		
 * If you want make scraping to other ubication modify the line 42 of [scraper](https://github.com/alexrods/Housing_scrapperML/blob/main/scrapper.py) HOME_URL variable:
 ![](https://drive.google.com/uc?id=1KqsiGep4Ckvh2KEWaLkOEcYQMCCBWnkk)
 
