@@ -12,6 +12,7 @@ In this project i make a [web scraping](https://github.com/alexrods/Housing_scra
 * Create virtual environment, in the root of project
 		python -m venv venv
 * Activate virtual environment 
+		
 		# Windows
 		.\venv\Scripts\activate
 		
