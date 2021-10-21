@@ -10,7 +10,9 @@ In this project i make a [web scraping](https://github.com/alexrods/Housing_scra
 ![](https://drive.google.com/uc?id=1LW3XUCQK8kBI4YEKnnx3o7d0XkJ-BUc3)
 
 * Create virtual environment, in the root of project
+		
 		python -m venv venv
+		
 * Activate virtual environment 
 		
 		# Windows
@@ -18,6 +20,7 @@ In this project i make a [web scraping](https://github.com/alexrods/Housing_scra
 		
 		#Linux
 		source venv/bin/activate
+		
 * Install requirements.txt
 		pip install -r requirements.txt
 * If you want make scraping to other ubication modify the line 42 of [scraper](https://github.com/alexrods/Housing_scrapperML/blob/main/scrapper.py) HOME_URL variable:
