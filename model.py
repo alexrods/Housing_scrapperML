@@ -7,9 +7,9 @@ import numpy as np
 from data_engineering import clean_data
 
 
-def ideal_houses():
+def ideal_houses(surface, bathrooms, bedrooms, parking, price):
     try:
-        ideal_house = np.array([2, 2, 1, 1, 3])
+        ideal_house = np.array([surface, bathrooms, bedrooms, parking, price]).reshape(1,-1)
         list_options = clean_data()
 
         results = []
