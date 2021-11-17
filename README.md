@@ -29,7 +29,32 @@ In this project i make a [web scraping](https://github.com/alexrods/Housing_scra
 ![](https://drive.google.com/uc?id=1KqsiGep4Ckvh2KEWaLkOEcYQMCCBWnkk)
 
 * Run main.py
+		
 		python main.py
-		# Results
-![](https://drive.google.com/uc?id=1cJIaePs_YfGRGyJ6rlNs8yIv_JL0dzYw)
+
+### New Version v1.0
+* Run app.py
+
+		python app.py
+
+* This script run in localhost,
+
+		http://localhost:8080/ideal_house
+
+Receive the data through the browser.
+* Example:
+
+		http://localhost:8080/ideal_house?surface=1&bathrooms=2&bedrooms=1&parking=2&price=2
+
+* For scrap data, include
+		
+		&scrap=true
+
+### Results
+Runing main.py
+![Runing main.py](https://drive.google.com/uc?id=1cJIaePs_YfGRGyJ6rlNs8yIv_JL0dzYw)
+
+Runing app.py
+![Runing app.py](https://drive.google.com/uc?id=16TfsS0tXOxX46pNc-67wwNQyGNbc_vcI)
+
 
